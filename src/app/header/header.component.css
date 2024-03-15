@@ -1,0 +1,34 @@
+/* Navbar styles */
+.navbar {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 10px 20px; /* Padding around navbar */
+}
+
+.navbar-brand {
+  font-size: 24px; /* Larger font size for brand */
+  font-weight: bold; /* Bold font weight */
+  color: #c4401c; /* Brand color */
+}
+
+.navbar-brand:hover {
+  color: #0056b3; /* Darker brand color on hover */
+}
+
+/* Button styles */
+.btn {
+  background-color: #d80b75; /* Primary button color */
+  color: #fff; /* Text color */
+  border: none; /* Remove button border */
+  padding: 10px 20px; /* Padding inside button */
+  margin-right: 10px; /* Margin between buttons */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.btn:hover {
+  background-color: #e6531e; /* Darker button color on hover */
+}
+
+/* Remove margin from last button */
+.btn:last-child {
+  margin-right: 0;
+}
