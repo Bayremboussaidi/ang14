@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { InscriptionComponent } from './inscription/inscription.component';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { PubAnnonComponent } from './pub/pub-annon.component';
+import { Navbar2Component } from './navbar2/navbar2.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,9 @@ import { PubAnnonComponent } from './pub/pub-annon.component';
     FooterComponent,
     InscriptionComponent,
     ConnexionComponent,
-    PubAnnonComponent
+    PubAnnonComponent,
+    Navbar2Component
+   
     
   ],
   imports: [
