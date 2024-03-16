@@ -9,6 +9,7 @@ import { InscriptionComponent } from './inscription/inscription.component';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { PubAnnonComponent } from './pub/pub-annon.component';
 import { Navbar2Component } from './navbar2/navbar2.component';
+import { DeuxiemeComponent } from './deuxieme/deuxieme.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { Navbar2Component } from './navbar2/navbar2.component';
     InscriptionComponent,
     ConnexionComponent,
     PubAnnonComponent,
-    Navbar2Component
+    Navbar2Component,
+    DeuxiemeComponent
    
     
   ],
